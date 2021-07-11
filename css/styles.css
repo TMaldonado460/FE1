@@ -1,0 +1,21 @@
+/*
+colour-pallete
+#264653
+#2a9d8f
+#e9c46a
+#f4a261
+#e76f51
+*/
+
+h1 {
+    text-align: center;
+    text-decoration: dotted ;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.assignment-page {
+    background-color: #264653;
+    font-style: oblique;
+}
