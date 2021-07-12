@@ -1,0 +1,99 @@
+
+body { margin: 0px; }
+
+header {
+    text-align: center;
+    background-color: #E5E5E5;
+    
+}
+header img {
+}
+
+h1 {
+    color: #005677;
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 10px;
+    word-spacing: 36px;
+    padding-top: 15px;  
+    padding-bottom: 15px;
+}
+
+h2 {
+    background-color: #C4C4C4;
+    text-align: left;
+    color: #005677;
+    font-size: 17px;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    word-spacing: 5px;
+    letter-spacing: 17px;
+    padding-left: 9px;
+    font-size: 20px;
+line-height: 84.69%;
+}
+
+
+
+ul span {
+    font-style: italic;
+font-weight: bold;
+font-size: 15px;
+}
+ul#list2, ul#list3 {
+    list-style-type:none;
+}
+
+ul#list2 span, ul#list3 span{
+    font-style: normal;
+font-weight: bold;
+font-size: 15px;
+}
+#curriculum-section {
+    
+    width: 72.29%;
+    
+    margin:auto;
+}
+
+
+.space {
+    opacity: 0;
+}
+
+#spacer {
+    height: 111px;
+}
+#spacer2 {
+    height: 116px;
+}
+
+footer {
+    background-color: 
+    #005677;
+    color: white;
+    text-align: center;
+    
+}
+
+footer span {
+    font-style: normal;
+font-weight: bold;
+vertical-align:super;
+    font-size: 20px;
+line-height: 84.69%;
+}
+ul {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+footer img {
+    padding-left: 27px;
+    padding-top: 9px;
+    padding-bottom: 3px;
+}

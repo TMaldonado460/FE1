@@ -25,39 +25,40 @@ m1 = 20 - 15 = 5
 
 */
 
-#back {
-    display:none;
-
-
+body {
+    background-color: rgb(4,14,39);
+    font-family: "Alata", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px;
 }
 
+#logo {
+    width:6%;
+    float:left; 
+    margin:0;
+    filter: invert(100%);
+    transform: translate(30px, 10px);
+}
+
+#shop img {
+    width: 100%;
+    margin: 0px;
+}
+
+
 .assignment-page {
-    width: auto;
-    height: auto;
-    vertical-align: top;
+    width: 33%;
     display: inline-block;
-    *display: inline;
-    zoom: 0.4;
-    padding: 3px;
-    color: rgb(20,20,0);
-    text-align:center;
-    font-size:30px;
-    text-decoration:none;
-    font-weight:normal;
-    font-family:cursive;
-    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-      
   }
   
   #shop {
-      width: 90%;
-      margin-top:0px;
-      margin-left: auto; 
-      margin-right: auto;
-  
-       text-align: justify;
   }
   
+  #shop h2 {
+      font-size: 40px;
+      transform: translate(0px, -130px);
+  }
 
 
 .stretch {
@@ -66,16 +67,13 @@ m1 = 20 - 15 = 5
     font-size: 0;
     line-height: 0
   }
-  
+  header {
+      border-radius: 0px 0px 0px 0px;
+      padding-bottom: 100px;c   
+  }
 
-h1 {background-color: rgb(33, 114, 33); 
-    margin-top: 0px;
-        font-size: 50px;
-        font-weight: normal;
-        color: white; 
-        width: 100%;
-        padding: 30px 0px;
-        text-align: center; 
-        text-decoration: none;
-        border-style: solid;
+  h1 { 
+        
+        font-size: 0px;
+        
 }
