@@ -53,6 +53,19 @@ main {
     
 }
 
+#shop img:hover {
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+    filter:blur(2px);
+    
+}
+article:hover {
+    cursor: pointer;
+    position: relative;
+    transition: all 1.3s;
+}
+
 h2 {
     letter-spacing: 3px;
     transform: translate(0px, -60px);
