@@ -73,8 +73,7 @@ font-size: 15px;
 }
 
 footer {
-    background-color: 
-    #005677;
+    background-color: #005677;
     color: white;
     text-align: center;
     
@@ -82,10 +81,10 @@ footer {
 
 footer span {
     font-style: normal;
-font-weight: bold;
-vertical-align:super;
+    font-weight: bold;
+    vertical-align:super;
     font-size: 20px;
-line-height: 84.69%;
+    line-height: 84.69%;
 }
 ul {
     padding-bottom: 3px;
@@ -97,3 +96,4 @@ footer img {
     padding-top: 9px;
     padding-bottom: 3px;
 }
+
