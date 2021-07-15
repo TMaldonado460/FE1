@@ -1,82 +1,83 @@
 
-body { margin: 0px; }
+body { 
+    background-color: linear-gradient(#fff, #000);
+    margin: 0px; 
+
+
+}
 
 header {
     text-align: center;
     background-color: #E5E5E5;
-    
-}
-header img {
 }
 
+header img {
+    width: 6.94vw;
+    height: auto;
+}
 h1 {
     color: #005677;
     background-color: #C4C4C4;
     font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: bold;
     font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 10px;
-    word-spacing: 36px;
-    padding-top: 15px;  
-    padding-bottom: 15px;
+    font-size: 2.43vw;
+    line-height: 2.05vw;
+    letter-spacing: 0.69vw;
+    word-spacing: calc(2.5vw - 2.34vw);
+    padding: 1.04vw 0vw 1.04vw 0px;
 }
 
 h2 {
     background-color: #C4C4C4;
-    text-align: left;
     color: #005677;
-    font-size: 17px;
-    padding-top: 6.5px;
-    padding-bottom: 6.5px;
-    word-spacing: 5px;
-    letter-spacing: 17px;
-    padding-left: 9px;
-    font-size: 20px;
-line-height: 84.69%;
+    font-size: 1.18vw;
+    padding-top: 0.45vw;
+    padding-bottom: 0.45vw;
+    padding-left: 0.625vw;
+    line-height: 84.69%;
+    word-spacing: 0.34vw;
+    letter-spacing: 1.18vw;
 }
 
 
 
 ul span {
     font-style: italic;
-font-weight: bold;
-font-size: 15px;
+    font-weight: bold;
+    font-size: 15px;
 }
-ul#list2, ul#list3 {
+ul#list {
     list-style-type:none;
 }
 
-ul#list2 span, ul#list3 span{
+ul#list span {
     font-style: normal;
-font-weight: bold;
-font-size: 15px;
-}
-#curriculum-section {
-    
-    width: 72.29%;
-    
-    margin:auto;
+    font-weight: bold;
+    font-size: 15px;
 }
 
+section {
+    
+    width: 72.29vw;
+    margin:auto;
+
+}
 
 .space {
     opacity: 0;
 }
 
 #spacer {
-    height: 111px;
+    height: 7.70vw;
 }
 #spacer2 {
-    height: 116px;
+    height: 8.05vw;
 }
 
 footer {
     background-color: #005677;
     color: white;
     text-align: center;
-    
 }
 
 footer span {
@@ -86,14 +87,21 @@ footer span {
     font-size: 20px;
     line-height: 84.69%;
 }
-ul {
-    padding-bottom: 3px;
-    padding-top: 3px;
-}
 
 footer img {
     padding-left: 27px;
     padding-top: 9px;
     padding-bottom: 3px;
 }
+
+dd {
+    text-indent: 4%;
+}
+
+dl dd:first-of-type{
+    display: inline;
+    margin-left: 0px;
+}
+
+
 

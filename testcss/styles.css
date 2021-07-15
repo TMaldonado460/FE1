@@ -1,8 +1,6 @@
-h3 {
-    color:red}
-
-p.negrita {
-    font-weight:bold;}
-
-h1#gigante{
-    font: size 40px;}
+#id1{
+    display: inline-block;
+    size: 100px;
+    width: 100px; 
+    background-color: red;
+}
