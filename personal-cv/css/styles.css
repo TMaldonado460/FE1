@@ -5,7 +5,16 @@
     --color4: #EEEEEE;
 }
 
+header a {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 90vw;
+    top: 1.5vh;
+    color: var(--color1);
+    font-weight:bolder;
+    text-decoration: none;
 
+}
 
 header {
     width: 100%;
@@ -50,7 +59,7 @@ section article:hover img{
 
 section article:hover div {
     transform: translate(0px, -80vh);
-    color: var(--color1);
+    color: var(--color3);
     opacity: 1;
     visibility: visible;
     border: white;
@@ -124,4 +133,7 @@ footer div.icons{
     position:absolute;
     left: calc(50vw - 1.5em);
     bottom: 0px;
+}
+section div {
+    text-align: left;
 }

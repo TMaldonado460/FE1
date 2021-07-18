@@ -1,88 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css"
+        integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <title>pet-shop</title>
 </head>
 
 <body>
     <header>
-        <div id="top"></div>
+        <div class="top"></div>
         <span> Grandes ofertas en comederos</span>
-        <span id="idioma">
+        <span class="idioma">
             Español
         </span>
-        <span id="moneda"> ARG$</span>
+        <span class="moneda"> ARG$</span>
         <h1>PET SHOP</h1>
-        <a href="index.html"><img src="img/Logo.png" alt="logo"></a>
-        </div>
-        <p id="buscador">BUSCADOR</p>
-        <div id="categorias">
-            <a href="">categorias</a>
-            <a href="">pets</a>
-            <a href="">nosotros</a>
-            <a href="">contactos</a>
         </div>
     </header>
-
-    <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="fondo" width="100%">
-
-
-    <div id="banner">
+    <nav>
+        </div>
+        <a href="index.html"><img src="img/Logo.png" alt="logo"></a>
+        <div class="categorias">
+            <a href=""><i class="fas fa-paw"></i>categorias</a>
+            <a href=""><i class="fas fa-paw"></i>pets</a>
+            <a href=""><i class="fas fa-paw"></i>nosotros</a>
+            <a href=""><i class="fas fa-paw"></i>contactos</a>
+    </nav>
+    <div class="banner">
+        <img src="img/bowl-and-pet-daities-on-green-background.png" alt="fondo" width="100%">
         <p>!Es un placer tenerte aquí!</p>
         <p>!Comederos en descuento!</p>
         <p>Comederos</p>
     </div>
 
     <br><br>
+    <div class="cat">
+
+        <p class="big">
+            <i class="fas fa-paw fa-2x"></i>
+
+        </p>
+        <h2>Productos destacados</h2>
+        <a href=""><span>Comederos</span>
+            <span class="guion">-</span>
+            <a href=""><span>Accesorios</span>
+                <span class="guion">-</span>
+                <a href=""><span>Comida</span>
+    </div>
 
 
-    <img src="img/pawprint 1.png" alt="patita">
-    <h2>Productos destacados</h2>
-    <ul id="categorias">
-    <li type="none"><a href=""><p>comederos</p></a></li>
-    <li type="none"><a href=""><p>accesorios</p></a></li>
-    <li type="none"><a href=""><p>comida</p></a></li>
-</ul>
+    <div class="article-list">
+        <article>
+            <a href=""> <img src="img/churrasquito.png" alt="churrasquito">
+                <p class="name">Juguete Churrasquito</p>
+                <p class="price">$150</p>
+            </a>
+        </article>
+        <article>
+            <a href=""> <img src="img/comedero.png" alt="comedero">
+                <p class="name">Comedero Para Perro </p>
+                <p id="price">$250</p>
+            </a>
+        </article>
+        <article>
+            <a href=""> <img src="img/Huesito.png" alt="huesito">
+                <p class="name">Juguete Huesito</p>
+                <p class="price">$650</p>
+            </a>
+        </article>
+    </div>
 
+    <div class="contacto">
+        <p>Contáctanos</p>
+        <p>Nombre y Apellido</p>
+        <p>Ingresá tu correo electrónico</p>
+        <p>Teléfono</p>
+    </div>
 
-
-    <article>
-        <a href=""> <img src="img/churrasquito.png" alt="churrasquito">
-            <p id="name">juguete churrasquito</p>
-        </a>
-    </article>
-    <p id="price">$150</p>
-    <article>
-        <a href=""> <img src="img/comedero.png" alt="comedero">
-            <p id="name">comedero para perro </p>
-        </a>
-        <p id="price">$250</p>
-    </article>
-    <article>
-        <a href=""> <img src="img/Huesito.png" alt="huesito">
-            <p id="name">juguete huesito</p>
-        </a>
-        <p id="price">$650</p>
-    </article>
-
-
-    <footer>
-        <div id="contacto">
-            <p>Contactanos</p>
-            <p>...</p>
-            <p>... </p>
-            <p>...</p>
-        </div>
-
-
+    <div class="pre-footer">
         <p>Suscribete para mas novedades</p>
         <p>Suscribirme</p>
-
-        <div id="datos de contacto">
+    </div>
+    <footer>
+        <div class="datos de contacto">
             <h3>
                 <p>Localidad</p>
             </h3>
@@ -102,7 +109,7 @@
         <img src="img/Logo.png" alt="logo">
 
 
-        <p align="center">
+        <p class="derechos">
             Todos los derechos reservados FrontEnd</p>
     </footer>
 

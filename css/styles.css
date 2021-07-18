@@ -32,8 +32,14 @@ main {
     height: auto;
 }
 
+h2 {
+    letter-spacing: 3px;
+    transform: translate(0px, -60px);
+    opacity: 0;
+    text-align: center;
+}
 #shop {
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
@@ -43,6 +49,7 @@ main {
     display: inline-block;
     flex-grow: 1;
     width: calc(100% * (1/2) - 10px - 1px);
+    height: auto;
     margin: 0 auto;
 }
 
@@ -56,21 +63,20 @@ main {
 #shop img:hover {
     object-fit: cover;
     cursor: pointer;
-    transition: 1s;
-    filter:blur(2px);
+    transition: 300ms;
+    filter:blur(3px);
     
 }
 article:hover {
     cursor: pointer;
     position: relative;
-    transition: all 1.3s;
+    transition: all 200ms;
 }
 
-h2 {
-    letter-spacing: 3px;
-    transform: translate(0px, -60px);
-    text-align: center;
+article:hover h2 {
+    opacity: 1;
 }
+
 a {
     text-decoration: none;
     color: rgb(18, 18, 18);

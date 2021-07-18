@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+nav i {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0.05vw #ffffff;
+}
+
+p, h3 {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 0px;
+}
+header {
+    background-color:#222222;
+    color: #F3F3F3;
+}
+
+nav {
+    background: #F0A83E;
+
+}
+
+
+.banner {
+    background-image: url("../img/bowl-and-pet-daities-on-green-background.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner img {
+    visibility: hidden;
+}
+
+.banner p:nth-child(2) {
+    color:#3C2313;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #fff;
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner p:nth-child(3) {
+    color: #3C2313;
+}
+
+.banner p:nth-child(4) {
+    color: #fff;
+    background: #F0A83E;
+    padding: 23px 15px 23px 15px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+
+.big {
+    font-size: 70px;
+    -webkit-text-stroke: 0.6vw #F0A83E;
+    color: rgba(0, 0, 0, 0);
+}
+
+div.cat {
+    text-align: center;
+    margin: auto;
+}
+div.cat h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+div.cat span {
+    font-weight: 400;
+    color: #666666;
+}
+
+.guion {
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+div.article-list {
+    display: flex;
+    text-align: justify;
+}
+
+.article-list article {
+    display: flex;
+    margin: auto;
+    background-color: #FBFAF6;
+}
+
+.article-list article a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 17.58px;
+    font-weight: 500;
+}
+
+.article-list article a p:nth-child(2) {
+    color: #3C2313;
+}
+
+.article-list article a p:nth-child(3) {
+    
+    color: #F0A83E;
+}
+
+
+.contacto {
+    text-align: center;
+}
+
+.contacto p:nth-child(1) {
+    font-weight: 700;
+    size: 25px;
+    line-height: 29.3px;
+    color: #3C2313;
+}
+
+
+.pre-footer {
+    background-color: #F0A83E;
+}
+
+footer {
+    background-color: #3C2313;
+    bottom: 0px;
+}
+
+.derechos {
+    background-color: #222222;
+}
