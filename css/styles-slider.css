@@ -118,46 +118,28 @@ div.proyect:hover p {
 
 
 .one {
-    flex-basis: 40%;
-    background-image: url(../img/lemon-pie.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    flex-basis: 30%;
+    background: url(../img/lemon-pie.png) no-repeat center /cover;
 }
 .two{
-    flex-basis: 30%;
-    background-image: url(../img/pet-shop.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    flex-basis: 40%;
+    background: url(../img/pet-shop.png) no-repeat center /cover;
 }
 
 .tree{
     flex-basis: calc(100% - 40% - 30% - 15px);
-    background-image: url(../img/cv-bruce-wayne.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-attachment: fixed;
-    background-size: cover;
-    background-origin: content-box;
-}
+    background: url(../img/cv-bruce-wayne.png) no-repeat center /cover;
+ }
+
 
 .four{
     flex-basis: 60%;
-    background-image: url(../img/personal-cv.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-attachment: fixed;
-    background-size: cover;
+    background: url(../img/personal-cv.png) no-repeat center /cover;
 }
 
 .five{
     flex-basis: calc(100% - 60% - 10px);
-    background-image: url(../img/heroes.png);
-    background-repeat: no-repeat;
-    background-position:left;
-    background-attachment: fixed;
-    background-size:contain;
+    background: url(../img/heroes.png) no-repeat center /cover;
 }
 .six{
     flex-basis: 35%;
