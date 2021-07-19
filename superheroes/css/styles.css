@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --color-1: #1CD1B0;
+    --color-2: #00669F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    max-width: 100%;
+}
+
+div.banner-1 {
+    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+}
+div.banner-2 {
+    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(1\).png);
+}
+div.banner-3 {
+    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(2\).png);
+}
+
+div .profilepic-1 {
+    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png);
+}
+div .profilepic-2 {
+    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1\ \(1\).png);
+}
+div .profilepic-3 {
+    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1\ \(2\).png);
+}
+
+
+
+
+
+h2 {
+    background: var(--color-1);
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+h1 {
+    background: var(--color-2);
+    font-size: 40px;
+    padding: 28px 26px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+div.profiles {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 154px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+div.profiles article {
+    position: relative;
+    width: 300px; height: calc(336px + 192px);
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.banner {
+    background-color: brown;
+    width: 300px; height: 192px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.profilepic {
+    position: absolute;
+    background-color: chartreuse;
+    border-radius: 100%;
+    width: 120px; height: 120px;
+    top: calc(192px - 120px / 2);
+    left: calc(300px / 2 - 120px / 2);
+}
+
+
+.name {
+    margin-top: 73px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.profile-description {
+    margin-top: 10px;
+    width: 267px;
+    font-size: 16px;
+    margin: 0px auto;
+}
+
+.view-more {
+    margin: 0px auto;
+    margin-top: 37px;
+    background: var(--color-2);
+    width: 130px; height: 48px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart {
+    position: absolute;
+    background-image: url(../img/heart.png);
+    width: 30px; height: 26.25px;
+    left: 21px;
+    top: 16px;
+}
+
+
+
+footer {
+    bottom: 0px;
+    margin-top: 150px;
+    background: var(--color-2);
+    color: #fff;
+    padding: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

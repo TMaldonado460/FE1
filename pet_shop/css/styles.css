@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-
+a {
+    text-decoration: none;
+}
 
 body {
     margin: 0px;
@@ -14,12 +16,7 @@ body {
 
 nav i {
     color: rgba(0, 0, 0, 0);
-    -webkit-text-stroke: 0.05vw #ffffff;
-}
-
-p, h3 {
-    margin: auto;
-}
+    -webkit-text-stroke: 0.05vw #ffffff;}
 
 a {
     text-decoration: none;
@@ -30,49 +27,86 @@ h1 {
 header {
     background-color:#222222;
     color: #F3F3F3;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    padding: 4px 50px 4px 90px;
+}
+
+.idioma {
+    position: absolute;
+    right:98px;
+}
+
+.moneda {
+    position: absolute;
+    right:40px;
 }
 
 nav {
     background: #F0A83E;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 0px 4vw;
+
+}
+
+nav div.categorias{
+    position: absolute;
+    display: flex;
+    right: 4vw;
+}
+
+nav div.categorias a {
+    color: #fff;
+    margin-left: 20px;
 
 }
 
 
 .banner {
     background-image: url("../img/bowl-and-pet-daities-on-green-background.png");
-    background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: contain;
+    height: 39.6vw;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
 }
 
-.banner img {
-    visibility: hidden;
-}
-
-.banner p:nth-child(2) {
+.banner p:nth-child(1) {
     color:#3C2313;
     font-size: 30px;
     font-weight: 400;
-    text-align: center;
+    /* text-align: center; */
     background-color: #fff;
-    width: max-content;
+    /* width: max-content; */
     padding: 10px;
     border-radius: 5px;
 }
 
-.banner p:nth-child(3) {
+.banner p:nth-child(2) {
     color: #3C2313;
 }
 
-.banner p:nth-child(4) {
+.banner p:nth-child(3) {
     color: #fff;
     background: #F0A83E;
-    padding: 23px 15px 23px 15px;
-    width: max-content;
+    /* padding: 23px 15px 23px 15px; */
+    /* width: max-content; */
     border-radius: 5px;
 }
 
+/* 
+@media screen {
+    
+} */
 
 .big {
     font-size: 70px;
@@ -97,10 +131,14 @@ div.cat span {
     padding-right: 13px;
     padding-left: 13px;
 }
+.cat {
+    padding-bottom: 50px;
+}
 
 div.article-list {
     display: flex;
     text-align: justify;
+    padding-bottom: 78px;
 }
 
 .article-list article {

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 2.5px auto;
+
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    max-width: 100%;
+
+}
+
+
+header {
+    margin-bottom: 8vw;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top:0;
+    height: 8vw;
+    flex-grow: 1;
+    align-items: stretch;
+    z-index: 100;
+}
+header div:nth-child(1) {
+    margin: 2.5px 2.5px;
+    width: 35%;
+    height: auto;
+    background-color: #ded7cf;
+    text-align: center;
+}
+header div:nth-child(1) span {
+    position:absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+
+header nav div:nth-child(2) {
+    position: relative;
+    width: 100%;
+    margin: 2.5px 2.5px;
+    padding-right: 100px;
+    background-color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+
+header nav div a{
+    text-decoration: none;
+    margin:1vw;
+    color: rgba(16, 16, 38, 1);
+    font-size: 20px;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+main div {
+    margin: 2.5px;
+    background-color: white;
+    height: 90vh;
+}
+
+main div img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.proyect {
+    position: relative;
+}
+div.proyect:hover p {
+    filter: brightness(1.2);
+}
+.proyect:hover {
+    filter: brightness(0.8);
+}
+
+
+.proyect p{
+    position: absolute;
+    margin: 0 0;
+    font-size: 40px;
+    bottom: 20px;
+    left: 10px;
+    text-shadow: 
+    2px 2px 10px black,
+    3px 3px 13px white;
+}
+
+
+.one {
+    flex-basis: 40%;
+    background-image: url(../img/lemon-pie.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.two{
+    flex-basis: 30%;
+    background-image: url(../img/pet-shop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tree{
+    flex-basis: calc(100% - 40% - 30% - 15px);
+    background-image: url(../img/cv-bruce-wayne.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+.four{
+    flex-basis: 60%;
+    background-image: url(../img/personal-cv.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.five{
+    flex-basis: calc(100% - 60% - 10px);
+    background-image: url(../img/heroes.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-attachment: fixed;
+    background-size:contain;
+}
+.six{
+    flex-basis: 35%;
+    background-color: #d8e3e8;
+}
+.seven{
+    flex-basis: 45%;
+    background-image: url(../img/corridor-1496275.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    
+}
+.eight{
+    flex-basis: calc(100% - 50% - 30% - 15px);
+    
+}
+.nine{
+    flex-basis: 30%;
+    height: 70vh;
+    background-image: url(../img/guitar-1422992.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-size: 20px;
+    padding-right: 15vw;
+    padding-top: 8vh;
+    text-align: justify;
+}
+.ten{
+    flex-basis: 30%;
+    background-color: #1a1a1a;
+    height: 70vh;
+    color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  padding: 0px 5vw;
+  
+}
+.eleven{
+    flex-basis: calc(100% - 30% - 30% - 15px);
+    height: 70vh;
+}
+.twelve, .thirteen, .fourteen{
+    height: 10vh;
+    width: calc(33.333333% - 5px);
+    background-color: honeydew;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgba(16, 16, 60, 1);
+
+}
+
+footer {
+    color: rgb(150, 150, 150);
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
