@@ -13,6 +13,7 @@
     max-width: 100%;
 }
 
+/* -----> IMAGENES <------ */
 div.banner-1 {
     background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
 }
@@ -37,6 +38,14 @@ div .profilepic-3 {
 
 
 
+
+/* ------> HEADER <------- */
+header {
+    position: sticky;
+    top: -40px;
+    z-index: 10;
+}
+
 h2 {
     background: var(--color-1);
     line-height: 40px;
@@ -50,6 +59,9 @@ h1 {
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
+
+
+/* ------> ARTICULOS <------ */
 div.profiles {
     width: 80%;
     display: flex;
@@ -119,6 +131,8 @@ div.profiles article {
 
 
 
+
+/* ------> FOOTER <------- */
 footer {
     bottom: 0px;
     margin-top: 150px;

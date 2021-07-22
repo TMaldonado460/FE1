@@ -4,6 +4,7 @@ a {
     text-decoration: none;
     color: black;
     margin: 2.5px auto;
+    overflow: hidden;
 
 }
 
@@ -19,6 +20,20 @@ body {
     width: 100vw;
     max-width: 100%;
 
+}
+
+.circle {
+    position: absolute;
+    background: blueviolet;
+    width: 400px; height: 400px;
+    box-shadow: 
+    0px 0px 0px 30px rgb(55, 176, 212),
+    0px 0px 0px 40px blueviolet,
+    0px 0px 50px 50px black;
+    border-radius: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translate(-40%, 70%);
 }
 
 
@@ -97,11 +112,8 @@ main div img{
 .proyect {
     position: relative;
 }
-div.proyect:hover p {
-    filter: brightness(1.2);
-}
 .proyect:hover {
-    filter: brightness(0.8);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 
