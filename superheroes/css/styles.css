@@ -133,7 +133,7 @@ div.profiles article {
 
 /* ------> FOOTER <------- */
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     left: 0;
     right: 0;
