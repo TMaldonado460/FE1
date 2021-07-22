@@ -10,7 +10,6 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    max-width: 100%;
 }
 
 /* -----> IMAGENES <------ */
@@ -134,7 +133,10 @@ div.profiles article {
 
 /* ------> FOOTER <------- */
 footer {
+    position: absolute;
     bottom: 0px;
+    left: 0;
+    right: 0;
     margin-top: 150px;
     background: var(--color-2);
     color: #fff;
