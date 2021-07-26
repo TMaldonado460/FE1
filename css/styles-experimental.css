@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: url(../img/cursor/cursor.png), auto;
+
+    --clr-primary : #ea0f1e;
+    --clr-secondary : rgba(255, 255, 255, 0.9);
+    --clr-accent : #442f38;
+    --clr-scrollbar : #442f38;
+
+
+    --img-pet-shop : url(../img/pet-shop.png);
+    --img-lemon-pie : url(../img/lemon-pie.png);
+    --img-cv-bruce-wayne : url(../img/cv-bruce-wayne.png);
+    --img-personal-cv : url(../img/personal-cv.png);
+    --img-heroes : url(../img/heroes.png);
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: #000;
+}
+a {
+    text-decoration: none;
+    color: var(--clr-secondary);
+}
+a span {
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px black;
+}
+
+/* <----- animaciones -------> */
+@keyframes fade-in-introduction {
+    0% { opacity: 0; transform: translate(-6rem, 0); }
+}
+@keyframes drop-down-nav {
+    40% {transform: translate(0, -100px)};
+}
+@keyframes ease-in-img-background {
+    0% {filter: blur(0px) brightness(1);}
+}
+/* <----- bara de scroll -------> */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--clr-scrollbar);
+    border-radius: 2px;
+}
+
+/* <----- nav -------> */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    animation-name: drop-down-nav;
+    animation-duration: 1.6s;
+}
+nav a {
+    color: white;
+    transition: all .2s;
+    position: relative;
+}
+nav a::before {
+    content: "";
+    position: absolute;
+    top:-5em; right: -1.4em; left: -1.4em; bottom: -.3em;
+    border-radius: 0 0px 7px 7px;
+    background: var(--clr-secondary);
+    z-index: -1;
+    transform: translate(0, -100px);
+    transition: all .2s;
+
+}
+nav a:hover {
+    color: var(--clr-accent);
+}
+nav a:hover::before {
+    color: var(--clr-accent);
+    transform: translate(0, 0px);
+}
+
+nav div {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+nav div > * {
+    margin-left: 3em;
+}
+/* <----- introduccion -------> */
+.introduction {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+.introduction div {
+    color: var(--clr-primary);
+    font-size: 5rem;
+    font-weight: 700;
+    animation-name: fade-in-introduction;
+    animation-duration: 2s;
+}
+
+.introduction p:first-child {
+    color: var(--clr-secondary);
+}
+.separador-introduction {
+    height: 150vh;
+}
+
+
+/* <----- h3 + flex -------> */
+h3 {
+    text-align: center;
+    color: var(--clr-secondary);
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20vh;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+}
+/* <----- cartas -------> */
+article {
+    position: relative;
+    width: calc(33.33% - 5px);
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: .2rem;
+    margin: 5px 0;
+}
+article::before {
+    position: absolute;
+    top:0; right: 0; left: 0; bottom: 0;
+    z-index: -1;
+}
+
+article:hover::before {
+    animation-name: ease-in-img-background;
+    animation-duration: 0.8s;
+    transition: all 0.3s;
+    filter: blur(2px) brightness(0.8);
+    transform: scale(1.05);
+
+}
+article a {
+    position: relative;
+    opacity: 0;
+    font-size: 2rem;
+    transform: translate(0, 7rem);
+    transition: all 0.4s ease-out;
+}
+article:hover a{
+    opacity: 1;
+    transform: translate(0, 6rem);
+    
+}
+article a::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, .4);
+    top: -.4em; left: -.4em; right: -.4em; bottom: -.4em;
+    border-radius: 8px 8px 0 0;
+    transform: translate(0, 3em);
+    transition: all 0.2s ease-out;
+    z-index: -1;
+}
+article:hover a::before {
+    transform: translate(0, 0);
+}
+
+
+/* <----- bg cartas -------> */
+article.article-pet-shop::before {
+    content: "";
+    background: var(--img-pet-shop) center center/cover no-repeat;
+}
+article.article-lemon-pie::before {
+    content: "";
+    background: var(--img-lemon-pie) center center/cover no-repeat;
+}
+article.article-cv-bruce-wayne::before {
+    content: "";
+    background: var(--img-cv-bruce-wayne) center center/cover no-repeat;
+}
+article.article-personal-cv::before {
+    content: "";
+    background: var(--img-personal-cv) center center/cover no-repeat;
+}
+article.article-heroes::before {
+    content: "";
+    background: var(--img-heroes) center center/cover no-repeat;
+}
+
+/* <----- footer -------> */
+footer {
+    display: flex;
+}
+.foo-data{
+    height: 4vh;
+    width: calc(33.333333%);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    position: relative;
+}
+.foo-data a {
+    color: var(--clr-secondary);
+    transition: all 0.2s;
+}
+.foo-data::before {
+    position: absolute;
+    height: 0;
+    content: "";
+    background-color: honeydew;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    transform: translate(0, 4vh);
+    transition: all 0.2s;
+}
+.foo-data:hover a {
+    color: var(--clr-accent);
+}
+.foo-data:hover::before {
+    height: 100%;
+    transform: translate(0, 0);
+}
+
+/* <----- derechos -------> */
+.derechos-reservados {
+    color: var(--clr-secondary);
+    text-align: center;
+}

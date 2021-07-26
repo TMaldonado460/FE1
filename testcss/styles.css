@@ -1,6 +1,46 @@
-#id1{
-    display: inline-block;
-    size: 100px;
-    width: 100px; 
-    background-color: red;
+header {
+    background: chartreuse;
 }
+
+p {
+    background: chocolate;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+body {
+    height: 500%;
+}
+
+#element { 
+    position: relative;  /* optional */
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#element::after {
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    z-index: -1;}
+
+    div:hover {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+      }
+      
+      @keyframes example {
+        0%   {opacity: 0;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {opacity: 1;}
+      }

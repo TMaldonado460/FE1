@@ -17,12 +17,10 @@ body {
     background-color: black;
     margin: 0px;
     padding: 0px;
-    width: 100vw;
-    max-width: 100%;
 
 }
 
-.circle {
+/* .circle {
     position: absolute;
     background: blueviolet;
     width: 400px; height: 400px;
@@ -34,7 +32,7 @@ body {
     bottom: 0;
     left: 0;
     transform: translate(-40%, 70%);
-}
+} */
 
 
 header {
@@ -80,58 +78,54 @@ header nav div:nth-child(2) {
 
 }
 
-header nav div a{
-    text-decoration: none;
-    margin:1vw;
-    color: rgba(16, 16, 38, 1);
-    font-size: 20px;
-}
-
 
 main {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
-    position: relative;
 }
 
 
 main div {
-    margin: 2.5px;
-    background-color: white;
-    height: 90vh;
+    height: 50vh;
+    transition: all 0.5s;
 }
 
-main div img{
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
+main div.proyect:hover {
+    transform:scale(1.1)
+}
+
+.proyect p{
+    position: absolute;
+    margin: 0;
+    font-size: 0px;
+    bottom: 0;
+    left: 50%;
+    text-shadow: 
+    2px 2px 10px black,
+    3px 3px 13px white;
+    transition: all 0.5s;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+main div.proyect:hover p {
+    font-size: 30px;
+    bottom: 40%;
+}
+
+main div.proyect:hover{
+    background: rgba(255, 255, 255, 0.5)  no-repeat center /cover;
 }
 
 .proyect {
     position: relative;
 }
-.proyect:hover {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-
-.proyect p{
-    position: absolute;
-    margin: 0 0;
-    font-size: 40px;
-    bottom: 20px;
-    left: 10px;
-    text-shadow: 
-    2px 2px 10px black,
-    3px 3px 13px white;
-}
-
 
 .one {
+    position: relative;
     flex-basis: 30%;
-    background: url(../img/lemon-pie.png) no-repeat center /cover;
+    background: url(../img/lemon-pie.png) no-repeat center;
+    background-size: cover;
 }
 .two{
     flex-basis: 40%;
@@ -207,6 +201,7 @@ main div img{
     align-items: center;
     justify-content: center;
     color:rgba(16, 16, 60, 1);
+    margin: 2.5px;
 
 }
 
