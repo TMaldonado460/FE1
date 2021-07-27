@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    font-size: 16px;
+    --font-accent : "Indie Flower", cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+@keyframes div-lemon-fade-in {
+    0% {
+        opacity: 0;
+        transform: translate(20em, 0);
+    }
+}
+@keyframes bgn-fade-in {
+    0% {
+        transform: scale(1.1) translate(2em, 0);
+    }
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    height: 3em;
+}
+
+.lemon-bgn {
+    position: relative;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    padding: 0 10em;
+    margin-bottom: 5em;
+    overflow: hidden;
+}
+.lemon-bgn div{
+    width: 60%;
+    animation-name: div-lemon-fade-in;
+    animation-duration: 1s;
+}
+.lemon-bgn div > * {
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
+}
+.lemon-bgn::before {
+    position: absolute;
+    content: "";
+    top: 0; bottom: 0 ;left: 0 ;right: 0;
+    background: url(../img/lemon-pie\ 1.png) center/cover fixed;
+    filter: brightness(1.03) blur(2px);
+    z-index: -1;
+    animation-name: bgn-fade-in;
+    animation-duration: 1s;
+}
+main {
+    width: 80%;
+    margin: auto;
+    background: #F8C8DC;
+    padding: 2rem;
+    border-radius: 5px;
+}
+h2 {
+    font-family: var(--font-accent);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    font-size: 1.3rem;
+    letter-spacing: .2em;
+    margin-bottom: 1rem;
+}
+ul {
+    padding-left: 3em;
+    margin-bottom: 2rem;
+    list-style: none;
+    display: grid;
+    grid-gap: 1rem;
+}
+li{
+    display: grid;
+    grid-gap: 1.75em;
+    align-items: start;
+    line-height: 1.25;
+}
+
+ol {
+    --li-bg: purple;
+    counter-reset: orderedlist;
+    display: grid;
+}
+  
+ol li {
+    padding: 1em 0;
+}
+ol li::before {
+    position: absolute;
+    transform: translate(-1.2em, 0);
+    counter-increment: orderedlist;
+    content: counter(orderedlist);
+    font-family: "Indie Flower";
+    font-size: 1.4em;
+    line-height: 0.75;
+    width: 1.5rem;
+    padding-top: 0.25rem;
+    text-align: center;
+    color: var(--li-bg);
+}
