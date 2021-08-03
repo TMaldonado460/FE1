@@ -1,46 +1,45 @@
-header {
-    background: chartreuse;
+* {
+    margin: 0;
+    font-size: 16px;
 }
 
-p {
-    background: chocolate;
-}
-
-nav {
-    position: sticky;
-    top: 0;
-}
-
-body {
-    height: 500%;
-}
-
-#element { 
-    position: relative;  /* optional */
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-}
-
-#element::after {
-    content: "";
-    width: 150px;
-    height: 150px;
-    background-color: red;
+div {
     position: absolute;
-    z-index: -1;}
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    position: relative;
+    background: #053541;
+    z-index: 0;
+}
+div p {
+    color: #ddd;
+    line-height: 20px;
+}
 
-    div:hover {
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        animation-name: example;
-        animation-duration: 4s;
-      }
-      
-      @keyframes example {
-        0%   {opacity: 0;}
-        25%  {background-color: yellow;}
-        50%  {background-color: blue;}
-        100% {opacity: 1;}
-      }
+.bar {
+    transition: all 0.1s ease-out;
+    position: absolute;
+    top: calc(50% - 40px);
+    width: 98%;
+    left: 2%;
+    border-radius: 20px 0 0 20px;
+    height: 20px;
+    background: #f35d65;
+    z-index: -1;
+    transform: translate(0, var(--pos));
+}
+div .two:hover ~ .bar {
+    --pos: 20px;
+}
+
+div .three:hover ~ .bar {
+    --pos: 40px;
+}
+
+div .four:hover ~ .bar {
+    --pos: 60px;
+}

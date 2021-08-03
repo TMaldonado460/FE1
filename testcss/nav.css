@@ -1,0 +1,21 @@
+.nav-bar {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.nav1 {
+
+}
+
+.nav1 ul {
+    width: 40%;
+}

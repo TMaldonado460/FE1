@@ -5,23 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/brands.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Superheroes</title>
 </head>
 
 <body>
     <header>
-        <h2>Descuentos 20%</h2>
-        <h1>Heroes</h1>
+        <h2>20% de descuento en todos los productos</h2>
+        <h1>
+            <img src="./img/logo-tienda.png" alt="logo de la tienda">
+            Nombre Tienda
+        </h1>
     </header>
 
     <main>
+        <div class="registro">
+            <ul>
+                <li><a href="">Contacto</a></li>
+                <li><a href="./sign-up.html">Registrarse</a></li>
+                <li><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </div>
         <div class="profiles">
             
             <article>
                 <div class="heart"></div>
-                <div class="banner banner-1"></div>
-                <div class="profilepic profilepic-1"></div>
+                <div class="relative">
+                    <div class="banner banner-1"></div>
+                    <div class="profilepic profilepic-1"></div>
+                </div>
                 <div class="name">
                     BATMAN
                 </div>
@@ -33,11 +48,13 @@
                     Ver más
                 </div>
             </article>
-
+            
             <article>
                 <div class="heart"></div>
-                <div class="banner banner-2"></div>
-                <div class="profilepic profilepic-2"></div>
+                <div class="relative">
+                    <div class="banner banner-2"></div>
+                    <div class="profilepic profilepic-2"></div>
+                </div>
                 <div class="name">
                     HARLEY QUINN
                 </div>
@@ -49,11 +66,13 @@
                     Ver más
                 </div>
             </article>
-
+            
             <article>
                 <div class="heart"></div>
-                <div class="banner banner-3"></div>
-                <div class="profilepic profilepic-3"></div>
+                <div class="relative">
+                    <div class="banner banner-3"></div>
+                    <div class="profilepic profilepic-3"></div>
+                </div>
                 <div class="name">
                     BATMAN
                 </div>
@@ -65,9 +84,10 @@
                     Ver más
                 </div>
             </article>
+            <a href="./new-super.html" id="plus">+</a>
         </div>
     </main>
-
+    
     <footer>
         <p>Todos los derechos reservados a FRONT END 1</p>
     </footer>

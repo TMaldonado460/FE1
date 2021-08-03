@@ -94,14 +94,20 @@ footer img {
     padding-bottom: 3px;
 }
 
+
+
+
+dl {
+    display: grid;
+    grid-auto-columns: max-content;
+}
+dt, dd {
+    display: grid;
+    margin: 0 .2em;
+}
+dt {
+    grid-column: 1;
+}
 dd {
-    text-indent: 4%;
+    grid-column: 2;
 }
-
-dl dd:first-of-type{
-    display: inline;
-    margin-left: 0px;
-}
-
-
-

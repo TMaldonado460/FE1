@@ -19,6 +19,7 @@ nav i {
 
 a {
     text-decoration: none;
+    position: relative;
 }
 h1 {
     font-size: 0px;
@@ -138,7 +139,6 @@ div.cat {
 }
 div.cat h2 {
     font-weight: 700;
-    font-size: ;
 }
 div.cat span {
     font-weight: 400;
@@ -156,9 +156,8 @@ div.cat span {
 div.article-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 78px;
-    width: 70%;
     margin: auto
 }
 
@@ -355,4 +354,54 @@ footer {
     background-color: #222222;
     margin: 0;
     line-height: 20px;
+}
+
+
+@media screen and (max-width : 700px) {
+    header {
+        display: none;
+    }
+    nav div.categorias{
+        display: none;
+    }
+    nav::after {
+        content: "\f0c9";
+        position: absolute;
+        right: 60px;
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900;
+        color: white;
+        font-size: 2rem;
+        z-index: 100;
+    }
+    .banner {
+        background-position: -11.1vw 0;
+        background-size: cover;
+        height: 100vw;
+        justify-content: flex-end;
+    }
+    .banner p {
+        margin-bottom: 3px;
+    }
+    .banner p:nth-child(2) {
+        background: lemonchiffon;
+        padding: 0.3em;
+    }
+    div.article-list {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .datos-de-contacto {
+        flex-direction: column;
+    }
+    .datos-de-contacto img {
+        margin-top: 30px;
+        order: -1;
+    }
+    .pre-footer {
+        justify-content: center;
+    }
+    .pre-footer .p-button, .pre-footer .dato {
+        display: none;
+    }
 }
