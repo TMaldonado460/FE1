@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/brands.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/brands.css"
+        integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css"
+        integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Superheroes</title>
 </head>
@@ -25,24 +28,41 @@
         <h1>Añadí tu super!</h1>
         <p>Agregá tu personaje favorito completando las opciones.</p>
         <form action="./index.html">
-            <div>
-                <label for="name">Nombre</label>
-                <input type="text" name="" id="name">
-                <label for="fecha">Fecha</label>
-                <input type="date" name="" id="fecha">
-                <input type="text" name="" id="" placeholder="Descripcion">
-            </div>
-            <div>
-                <label for="especie">Especie</label>
-                <input type="text" list="" id="especie">
-                <label for="foto">Agregá Foto</label>
-                <input type="file" name="" id="foto">
-                <label for="poderes">Poderes</label>
-                <input type="checkbox" name="" id="poderes">
-                <label for="tipo">Tipo de personaje</label>
-                <input type="radio" name="" id="tipo">
-            </div>
-        
+            <section class="flex-father">
+                <div>
+                    <label for="name" important>Nombre</label>
+                    <input type="text" name="" id="name">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="" id="fecha">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion"></textarea>
+                </div>
+                <div>
+                    <label for="especie" important>Especie</label>
+                    <input type="text" list="" id="especie">
+                    <label for="foto">Agregá Foto</label>
+                    <input type="file" name="" id="foto">
+                    <h3>Poderes</h3>
+                    <div class="poderes">
+                        <input type="checkbox" name="" id="poder1">
+                        <label for="poder1">Volar</label>
+                        <input type="checkbox" name="" id="poder2">
+                        <label for="poder2">Superinteligencia</label>
+                        <input type="checkbox" name="" id="poder3">
+                        <label for="poder3">Vision de rasho laser</label>
+                        <input type="checkbox" name="" id="poder4">
+                        <label for="poder3">Billetera</label>
+                    </div>
+                    <div class="line"></div>
+                    <h3>Tipo</h3>
+                    <div class="poderes">
+                        <input type="radio" name="Heroe" id="tipo1" value="yes">
+                        <label for="tipo1">Heroe</label>
+                        <input type="radio" name="Villain" id="tipo2" value="yes">
+                        <label for="tipo2">Villano</label>
+                    </div>
+                </div>
+            </section>
+            <button type="submit">Añadir</button>
         </form>
     </main>
 

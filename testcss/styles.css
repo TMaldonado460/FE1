@@ -1,45 +1,14 @@
-* {
-    margin: 0;
-    font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 
-div {
-    position: absolute;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 10%;
-    position: relative;
-    background: #053541;
-    z-index: 0;
-}
-div p {
-    color: #ddd;
-    line-height: 20px;
-}
+* { font-family: 'Roboto', sans-serif; }
 
-.bar {
-    transition: all 0.1s ease-out;
-    position: absolute;
-    top: calc(50% - 40px);
-    width: 98%;
-    left: 2%;
-    border-radius: 20px 0 0 20px;
-    height: 20px;
-    background: #f35d65;
-    z-index: -1;
-    transform: translate(0, var(--pos));
-}
-div .two:hover ~ .bar {
-    --pos: 20px;
-}
-
-div .three:hover ~ .bar {
-    --pos: 40px;
-}
-
-div .four:hover ~ .bar {
-    --pos: 60px;
-}
+.l100 {font-weight: 100;}
+.l200 {font-weight: 200;}
+.l300 {font-weight: 300;}
+.l400 {font-weight: 400;}
+.l500 {font-weight: 500;}
+.l600 {font-weight: 600;}
+.l700 {font-weight: 700;}
+.l800 {font-weight: 800;}
+.l900 {font-weight: 900;}

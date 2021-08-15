@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+* { 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --clr-main: #e60c19;
+    --clr-secondary: #df7c83;
+    --clr-ligth: rgba(255, 255, 255, 0.8);
+    --clr-dark: rgba(0, 0, 0, 0.95);
+}
+a {
+    text-decoration: none;
+}
+
+.moov-ofertas {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background: var(--clr-main);
+    color: var(--clr-ligth);
+    padding: 0 30px;
+}
+.moov-ofertas img {
+    height: 80%;
+}
+.moov-ofertas span {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+nav {
+    background: var(--clr-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+}
+nav img {
+    height: 50%;
+    width: auto;
+}
+.categorias {
+    display: flex;
+    gap: 1rem;
+}
+.middle-part-div {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.middle-part-div > * {
+    width: 49%;
+}
+.datos-derecha {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-blend-mode:darken;
+    margin-top: 30px;
+}
+
+.precio {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    position: relative;
+}
+.precio::after {
+    content: "$11000";
+    color: red;
+    opacity: 0.6;
+    text-decoration: line-through;
+    margin-left: 20px;
+    font-size: 2.3rem;
+}
+.precio::before {
+    position: absolute;
+    content: "Ahorro de 1000$!";
+    color: red;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    transform: translate(0, 300%);
+}
+.datos-derecha .talle a {
+    color: var(--clr-dark);
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    padding: 5px;
+    line-height: 35px;
+    margin-right: 7px;
+}
+.datos-derecha .talle a[disabled] {
+    color: gray;
+    text-decoration: line-through;
+    BORDER: none;
+}
+.datos-derecha .talle a[selected] {
+    background: black;
+    color: white;
+    border-color: white;
+}
+.datos-derecha .talle .tabla { 
+    border: none;
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.datos-derecha form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+.datos-derecha .social a{
+    margin-top: 30px;
+}
+.datos-derecha button[type="submit"] {
+    background: var(--clr-secondary);
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 65%;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.datos-derecha .heart {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.visor-imagenes { 
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 0 1px black;
+}
+.visor-imagenes > * {
+    width: 100%;
+}
+.descripcion {
+    padding: 20px;
+}
+
+.descripcion .top {
+    display: flex;
+    gap: 70px;
+}
+.descripcion .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.carrousel-recomendados {
+    height: 300px;
+}
+
+footer {
+    background: var(--clr-dark);
+}
+footer .contacto {
+    display: flex;
+}
+footer .contacto div h3 {
+    color: white;
+    font-weight: 300;
+}

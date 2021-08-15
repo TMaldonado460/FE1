@@ -3,7 +3,16 @@
 a {
     text-decoration: none;
 }
-
+:root {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #F0A83E;
+    border-radius: 2px;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -39,14 +48,27 @@ header {
     padding: 4px 50px 4px 90px;
 }
 
+
+.idioma select, .moneda select{ 
+    background: #222 !important;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+
+}
 .idioma {
     position: absolute;
-    right:98px;
+    right:150px;
+    height: 12px;
+    width: 10px;
 }
 
 .moneda {
     position: absolute;
-    right:40px;
+    height: 12px;
+    right:70px;
+    width: 10px;
 }
 
 nav {
@@ -72,6 +94,22 @@ nav div.categorias{
 nav div.categorias a {
     color: #fff;
     margin-left: 20px;
+}
+.categorias div {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100vw;
+    height: 0px;
+    background: #F0A83E;
+    z-index: -1;
+    transition: all 0.2s;
+    visibility: hidden;
+}
+
+div.categorias a:nth-child(1):hover + div {
+    height: 200px;
+    visibility: visible;
 }
 
 
@@ -128,8 +166,9 @@ nav div.categorias a {
 } */
 
 .big {
+    margin-top: 60px;
     font-size: 5rem;
-    -webkit-text-stroke: 0.5rem #F0A83E;
+    -webkit-text-stroke: 0.3rem #F0A83E;
     color: rgba(0, 0, 0, 0);
 }
 
@@ -163,6 +202,10 @@ div.article-list {
     display: flex; 
     background-color: #FBFAF6;
     box-shadow: 0px 10px 20px 0 rgb(200, 200, 200);
+}
+.article-list article:hover {
+    transition: all 0.2s;
+    transform: scale(1.2);
 }
 
 .article-list article a {
@@ -238,8 +281,9 @@ div.article-list {
 .pre-footer {
     background-color: #F0A83E;
     margin-top: 150px;
-    height: 60px;
+    min-height: 60px;
     display: flex;
+    flex-wrap: wrap;
     padding: 0 25px 0 50px;
     align-items: center;
     justify-content: space-between;
@@ -398,8 +442,22 @@ footer {
     }
     .pre-footer {
         justify-content: center;
+        height: 100px;
+
     }
-    .pre-footer .p-button, .pre-footer .dato {
-        display: none;
+}
+
+@media screen and (max-width : 500px) {
+    .pre-footer {
+        justify-content: center;
+        height: 150px;
+
+    }
+    .pre-footer form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 }

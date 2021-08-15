@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+* {
+    font-family: "Roboto";
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ 
+body > * {
+    box-shadow: 0 0 3px 0px black;
+}
+
+
+article {
+    width: 412px; height: 584px;
+}
+.top_part {
+    height: 39px;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    gap: 14px;
+}
+.top_part .name {
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+.profile img {
+    visibility: hidden;
+}
+.top_part .profile {
+    position: relative;
+    --size: 30px;
+    --width: 2px;
+}
+.top_part .profile::after {
+    position: absolute;
+    content: "";
+    z-index: -2;
+    border-radius: 100%;
+    top: calc(26px - var(--size)); left: calc(26px - var(--size));
+    width: var(--size);
+    height: var(--size);
+    background: linear-gradient(220deg, rgba(217,116,182,1) 0%, rgba(242,176,120,1) 100%);
+}
+.top_part .profile::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    border-radius: 100%;
+    top: calc(26px - var(--size) + var(--width)); left: calc(26px - var(--size) + var(--width));
+    width: calc(var(--size) - 2*var(--width));
+    height: calc(var(--size) - 2*var(--width));
+    background: url(../img/profile_pic.jpg);
+    background-size: cover;
+}
+.button-layout {
+    height: 25px;
+}
+.button-layout > * {
+    border: none;
+    background: transparent;
+}
+.button-layout button svg {
+    height: 16px;
+}
+.button-layout .rrUvL{
+    visibility: hidden;
+}
+.button-layout + div {
+    height: 60px;
+    padding: 0 10px;
+    overflow: hidden;
+    scrollbar-width: 0;
+}
+.button-layout + div * {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    opacity: 0.9;
+}
+.button-layout + div {
+    box-shadow: 0 1px 0 0px rgba(0, 0, 0, 0.2);
+}
+.buttom-part {
+    height: 30px;
+    margin-top: 10px;
+}
+.buttom-part form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.buttom-part form > *{
+    border: none;
+    height: 10px;
+    font-size: 10px;
+}
+.buttom-part form button {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttom-part form input {
+    width: 100%;
+}
