@@ -1,0 +1,5 @@
+<article class="article" style="--bgn : url(../img/pet-shop.png);">
+    <a href="">
+        <span class=""></span>
+    </a>
+</article>

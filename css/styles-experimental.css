@@ -138,7 +138,7 @@ h3 {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     margin: auto;
     justify-content: space-between;
     margin-bottom: 15rem;
@@ -147,7 +147,7 @@ h3 {
 article {
     position: relative;
     width: calc(33.33% - 5px);
-    height: 15rem;
+    height: 18rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,18 +162,16 @@ article::before {
 }
 
 article:hover::before {
-    animation-name: ease-in-img-background;
     animation-duration: 0.8s;
     transition: all 0.3s;
     filter: blur(2px) brightness(0.8);
     transform: scale(1.05);
-
 }
 article a {
     position: relative;
     opacity: 0;
     font-size: 2rem;
-    transform: translate(0, 7rem);
+    transform: translate(0, 8rem);
     transition: all 0.4s ease-out;
 }
 article:hover a{
@@ -185,9 +183,9 @@ article a::before {
     content: "";
     position: absolute;
     background: rgba(0, 0, 0, .4);
-    top: -.4em; left: -.4em; right: -.4em; bottom: -.4em;
+    top: -.4em; left: -.4em; right: -.4em; bottom: -13em;
     border-radius: 8px 8px 0 0;
-    transform: translate(0, 3em);
+    transform: translate(0, 4em);
     transition: all 0.2s ease-out;
     z-index: -1;
 }
@@ -197,25 +195,9 @@ article:hover a::before {
 
 
 /* <----- bg cartas -------> */
-article.article-pet-shop::before {
+article.article::before {
     content: "";
-    background: var(--img-pet-shop) center center/cover no-repeat;
-}
-article.article-lemon-pie::before {
-    content: "";
-    background: var(--img-lemon-pie) center center/cover no-repeat;
-}
-article.article-cv-bruce-wayne::before {
-    content: "";
-    background: var(--img-cv-bruce-wayne) center center/cover no-repeat;
-}
-article.article-personal-cv::before {
-    content: "";
-    background: var(--img-personal-cv) center center/cover no-repeat;
-}
-article.article-heroes::before {
-    content: "";
-    background: var(--img-heroes) center center/cover no-repeat;
+    background: var(--bgn) center center/cover no-repeat;
 }
 
 /* <----- footer -------> */

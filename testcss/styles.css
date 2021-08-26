@@ -1,14 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+#maldonadoTomas {
+    width: 20%;
+    height: 400px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    background: #222;
+    position: relative;
+}
+#maldonadoTomas .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    transform: skewX(25deg) translateX(-80px);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+#maldonadoTomas .container div {
+    width: 130px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    background: url(https://www.photos-public-domain.com/wp-content/uploads/2018/05/black-card-stock-paper-texture-600x450.jpg);
+    transition: all 0.3s ease-in;
+    z-index: 0;
+    perspective: 1000px;
 
-* { font-family: 'Roboto', sans-serif; }
-
-.l100 {font-weight: 100;}
-.l200 {font-weight: 200;}
-.l300 {font-weight: 300;}
-.l400 {font-weight: 400;}
-.l500 {font-weight: 500;}
-.l600 {font-weight: 600;}
-.l700 {font-weight: 700;}
-.l800 {font-weight: 800;}
-.l900 {font-weight: 900;}
+    box-shadow: 1px 1px 1px black, 1px 1px 5px rgba(0,0,0,0.5);
+}
+#maldonadoTomas .container div p{
+    font-family: 'Roboto', sans-serif; 
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-weight: 400;
+    color: darkcyan;
+    transform: rotateY(180deg);
+}
+#maldonadoTomas .container div p.center {
+    font-size: 1rem;
+    font-weight: 600;
+}
+#maldonadoTomas:hover .container div {
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+#maldonadoTomas .container div:hover {
+    transform: rotateY(180deg) translate(-20px, -15px);
+    box-shadow: 1px 1px 1px black, 20px 15px 20px rgba(0,0,0,0.5);
+    z-index: 10;
+}
