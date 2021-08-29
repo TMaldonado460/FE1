@@ -1,15 +1,17 @@
 const main = document.getElementById("main");
 var curr = 0;
-var max = -1;
+var max = 0;
 var locked = false;
 
 fetch("./alumnos.json")
 .then(promise => promise.json())
 .then(alumnos => {
-    alumnos.forEach((alumno, id) => {
-    articulo = document.createElement("article");
-    main.innerHTML += article(id, alumno.foto, alumno.lugar, alumno.nombre, alumno.descripcion);
-    max++;
+    alumnos.sort((a,b) => (Math.random()-0.5)).forEach((alumno, id) => {
+    if (alumno.nombre) {
+        articulo = document.createElement("article");
+        main.innerHTML += article(id, alumno.foto, alumno.lugar, alumno.nombre, alumno.descripcion);
+        max++;
+    }
 })
 })
 
@@ -47,8 +49,8 @@ return `<article id="${id}">
 }
 
 function generateClr() {
-    let hue = Math.floor(Math.random()*225)
-    let hue2 = hue + 30
+    let hue = Math.floor(Math.random()*320)
+    let hue2 = hue + 40
     return [`hsl(${hue}, 50%, 50%)`, `hsl(${hue2}, 50%, 50%)`]
 }
 
@@ -60,6 +62,7 @@ function logKey(e) {
 document.addEventListener("wheel", mouseResponsive)
 
 function mouseResponsive(mouseEvent) {
+
     if(mouseEvent.deltaY > 0) {
         after();
     } else if (mouseEvent.deltaY < 0) {
