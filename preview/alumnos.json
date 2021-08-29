@@ -3,13 +3,13 @@
         "foto": "http://3.cdnpt.com/Destinations/1675/1675/la-rioja-3940037300-L.jpg", 
         "lugar":"La Rioja", 
         "nombre":"Tomas Maldonado",
-        "descripcion":"Gracias profe por todo lo que hizo por nosotros.\n Suerte con futuras camadas y muchos muchos exitos!!!" 
+        "descripcion":"Gracias profe por todo lo que hizo por nosotros.<br /> Suerte con futuras camadas y muchos muchos exitos!!!" 
     },
     {
         "foto": "https://cdn.discordapp.com/attachments/881257702255366225/881257957151604756/Verano-2019-Mar-del-Plata-Atardecer-y-amanecer-con-drone-2.jpg", 
         "lugar":"Mar del plata", 
         "nombre":"Flor Annichini",
-        "descripcion":""  
+        "descripcion":"Gracias profe por todo lo aprendido! :)"  
     },
     {
         "foto": "./img/vicramirez.jpeg", 
@@ -22,6 +22,12 @@
         "lugar":"Faro de Colon, La Pampa", 
         "nombre":"Mariela Golcalves",
         "descripcion":"Profe Jorge gracias por compartir tanto con nosotros! Desde el Faro de Colón  en medio de la zona pampeana le mando un saludo enorme! Mi lugarcito más cercano es ese lago artificial que está en provincia de Buenos Aires pero se siente muy de Santa Fe ♥  o(^▽^)┛"  
+    },
+    {
+        "foto": "./img/caroavedaño.gif", 
+        "lugar":"Medellín, Antioquia", 
+        "nombre":"Carolina Avendaño",
+        "descripcion":"Lo invito a conocer la ciudad de la eterna primavera: visitaremos la comuna 13, la plaza Botero, el parque explora,el Museo de Antioquia, el Parque de los Pies Descalzos, el Jardín Botánico, el Estadio Atanasio Girardot y  el parque ecoturístico ARVÍ al que tendremos que llegar subiendo al metro de Medellín. Y, los imperdibles para los días de sol son: el Aeroparque Juan Pablo II y la piedra del Peñol.<br /><br />Gracias por compartir sus conocimientos y experiencias, enriqueciendo nuestros espíritus. Un abrazo y exitos."  
     },
     {
         "foto": "", 

@@ -58,7 +58,6 @@ div {
     bottom: 60px;
 }
 .text h2 {
-    height: 0;
 }
 .text p {
     padding: 40px;
@@ -81,9 +80,10 @@ input {
     font-size: 1.6rem;
     padding-bottom: 20px;
     cursor:pointer;
-    right: 20%;
+    right: 50%;
     z-index: 100;
     outline: none;
+    box-shadow: 1px 1px 5px black;
 }
 .down {
     line-height: 21px;
@@ -94,6 +94,7 @@ input {
     line-height: 40px;
 }
 input:hover {
+    box-shadow: 1px 1px 10px black;
     transition: all 0.5s;
     background: #111;
     color: #fff;
