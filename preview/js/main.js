@@ -1,6 +1,6 @@
 const main = document.getElementById("main");
 var curr = 0;
-var max = 0;
+var max = -1;
 var locked = false;
 
 fetch("./alumnos.json")
