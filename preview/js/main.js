@@ -1,6 +1,7 @@
 const main = document.getElementById("main");
 var curr = 0;
 var max = 0;
+var locked = false;
 
 fetch("./alumnos.json")
 .then(promise => promise.json())
@@ -14,15 +15,19 @@ fetch("./alumnos.json")
 
 
 function after() {
-    if (curr !== max) {
+    if (curr !== max && !locked) {
+        locked = true;
         curr++;
         main.style.transform = `translateY(${-curr*100}vh)`;
+        locked = false;
     }
 }
 function before() {
-    if (curr !== 0) {
+    if (curr !== 0 && !locked) {
+        locked = true;
         curr--;
         main.style.transform = `translateY(${-curr*100}vh)`;
+        locked = false;
     }
 }
 
@@ -53,4 +58,13 @@ document.addEventListener('keydown',  logKey);
 function logKey(e) {
     if (e.code === "ArrowDown") after()
     if (e.code === "ArrowUp") before()
-  }
+}
+document.addEventListener("wheel", mouseResponsive)
+
+function mouseResponsive(mouseEvent) {
+    if(mouseEvent.deltaY > 0) {
+        after();
+    } else if (mouseEvent.deltaY < 0) {
+        before();
+    }
+}
