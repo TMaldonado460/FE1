@@ -12,6 +12,12 @@
         "descripcion":""  
     },
     {
+        "foto": "./img/vicramirez.jpeg", 
+        "lugar":"Monumento Nacional a la Bandera, Rosario, Santa Fe", 
+        "nombre":"Victoria Ramirez",
+        "descripcion":"Gracias por todo profe! Le deseo los mejores de los éxitos!!"  
+    },
+    {
         "foto": "", 
         "lugar":"", 
         "nombre":"",

@@ -63,11 +63,12 @@ div {
 }
 img {
     border-radius: 4px;
-    width: 100%;
     box-shadow: 5px 5px 20px black;
+    max-height: 95%;
+    max-width: 100%;
 }
 input {
-    position: absolute;
+    position: fixed;
     transform: translate(-50%, 0);
     width: 30px;
     height: 30px;
