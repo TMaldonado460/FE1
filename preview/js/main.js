@@ -32,8 +32,6 @@ function before() {
 }
 
 
-
-
 function article(id, foto, lugar, nombre, descripcion) {
     [color, color2] = generateClr()
 return `<article id="${id}">
