@@ -1,0 +1,20 @@
+[
+    {
+        "foto": "http://3.cdnpt.com/Destinations/1675/1675/la-rioja-3940037300-L.jpg", 
+        "lugar":"La Rioja", 
+        "nombre":"Tomas Maldonado",
+        "descripcion":"Gracias profe por todo lo que hizo por nosotros.\n Suerte con futuras camadas y muchos muchos exitos!!!" 
+    },
+    {
+        "foto": "https://cdn.discordapp.com/attachments/881257702255366225/881257957151604756/Verano-2019-Mar-del-Plata-Atardecer-y-amanecer-con-drone-2.jpg", 
+        "lugar":"Mar del plata", 
+        "nombre":"Flor Annichini",
+        "descripcion":""  
+    },
+    {
+        "foto": "", 
+        "lugar":"", 
+        "nombre":"",
+        "descripcion":""  
+    }
+]

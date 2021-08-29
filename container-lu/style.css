@@ -1,0 +1,22 @@
+body {
+    box-sizing: border-box;
+}
+article.rellenar {
+    background: var(--bgn1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.5s;
+    padding: 20px;
+    overflow: hidden;
+}
+article.rellenar:hover {
+    background: var(--bgn);
+}
+article.rellenar:hover > * {
+    transition: all 0.5s;
+    transform: rotate(1turn);
+}
