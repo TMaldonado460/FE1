@@ -66,7 +66,7 @@ function article(id, fotos, lugar, nombre, descripcion) {
 }
 
 function generateClr() {
-    let hue = Math.floor(Math.random()*320)
+    let hue = Math.floor(Math.random()*360)
     let hue2 = hue + 40
     return [`hsl(${hue}, 50%, 50%)`, `hsl(${hue2}, 50%, 50%)`]
 }

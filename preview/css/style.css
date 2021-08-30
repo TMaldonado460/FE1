@@ -39,7 +39,7 @@ article {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    background: linear-gradient(90deg, hsl(100, 50%, 50%), hsl(130, 50%, 50%));
+    background: linear-gradient(90deg, hsl(0, 50%, 50%), hsl(40, 50%, 50%));
 }
 #dahy video {
     height: 90%;
