@@ -1,36 +1,42 @@
 [
     {
-        "foto": "http://3.cdnpt.com/Destinations/1675/1675/la-rioja-3940037300-L.jpg", 
+        "fotos": ["http://3.cdnpt.com/Destinations/1675/1675/la-rioja-3940037300-L.jpg"], 
         "lugar":"La Rioja", 
         "nombre":"Tomas Maldonado",
         "descripcion":"Gracias profe por todo lo que hizo por nosotros.<br /> Suerte con futuras camadas y muchos muchos exitos!!!" 
     },
     {
-        "foto": "https://cdn.discordapp.com/attachments/881257702255366225/881257957151604756/Verano-2019-Mar-del-Plata-Atardecer-y-amanecer-con-drone-2.jpg", 
+        "fotos": ["https://cdn.discordapp.com/attachments/881257702255366225/881257957151604756/Verano-2019-Mar-del-Plata-Atardecer-y-amanecer-con-drone-2.jpg"], 
         "lugar":"Mar del plata", 
         "nombre":"Flor Annichini",
         "descripcion":"Gracias profe por todo lo aprendido! :)"  
     },
     {
-        "foto": "./img/vicramirez.jpeg", 
+        "fotos": ["./img/vicramirez.jpeg"], 
         "lugar":"Monumento Nacional a la Bandera, Rosario, Santa Fe", 
         "nombre":"Victoria Ramirez",
         "descripcion":"Gracias por todo profe! Le deseo los mejores de los éxitos!!"  
     },
     {
-        "foto": "https://cdn.discordapp.com/attachments/861357159463911454/881362710523150386/DSC06961.JPG", 
+        "fotos": ["https://cdn.discordapp.com/attachments/861357159463911454/881362710523150386/DSC06961.JPG"], 
         "lugar":"Faro de Colon, La Pampa", 
         "nombre":"Mariela Golcalves",
         "descripcion":"Profe Jorge gracias por compartir tanto con nosotros! Desde el Faro de Colón  en medio de la zona pampeana le mando un saludo enorme! Mi lugarcito más cercano es ese lago artificial que está en provincia de Buenos Aires pero se siente muy de Santa Fe ♥  o(^▽^)┛"  
     },
     {
-        "foto": "./img/caroavedaño.gif", 
+        "fotos": ["./img/caroavedaño.gif"], 
         "lugar":"Medellín, Antioquia", 
         "nombre":"Carolina Avendaño",
-        "descripcion":"Lo invito a conocer la ciudad de la eterna primavera: visitaremos la comuna 13, la plaza Botero, el parque explora,el Museo de Antioquia, el Parque de los Pies Descalzos, el Jardín Botánico, el Estadio Atanasio Girardot y  el parque ecoturístico ARVÍ al que tendremos que llegar subiendo al metro de Medellín. Y, los imperdibles para los días de sol son: el Aeroparque Juan Pablo II y la piedra del Peñol.<br /><br />Gracias por compartir sus conocimientos y experiencias, enriqueciendo nuestros espíritus. Un abrazo y exitos."  
+        "descripcion":"Lo invito a conocer la ciudad de la eterna primavera: visitaremos la comuna 13, la plaza Botero, el parque explora,el Museo de Antioquia, el Parque de los Pies Descalzos, el Jardín Botánico, el Estadio Atanasio Girardot y  el parque ecoturístico ARVÍ al que tendremos que llegar subiendo al metro de Medellín. Y, los imperdibles para los días de sol son: el Aeroparque Juan Pablo II y la piedra del Peñol.<br />Gracias por compartir sus conocimientos y experiencias, enriqueciendo nuestros espíritus. Un abrazo y exitos."  
     },
     {
-        "foto": "", 
+        "fotos": ["./img/micasandoval.jpeg", "./img/micasandoval1.jpeg", "./img/micasandoval2.jpeg", "./img/micasandoval3.jpeg"], 
+        "lugar":"Río Limay, Plottier, Neuquén", 
+        "nombre":"Sandoval F. Micaela",
+        "descripcion":"Muchas gracias por todo profe, la verdad que hace que los momentos de aprendizaje sean muy amenos y fructíferos. En estas fotos le presento algunas tomas del lugar de donde vivo, del hermoso Río Limay, sus costas y acantilados, para que nunca deje de viajar aunque esté desde su casa. Le mando un cálido abrazo y le deseo que ¡nunca deje de rodar! <br />PD: Esas fotos las saque yo! Le gustan?"  
+    },
+    {
+        "fotos": "", 
         "lugar":"", 
         "nombre":"",
         "descripcion":""  

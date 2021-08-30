@@ -1,7 +1,8 @@
 const main = document.getElementById("main");
 var curr = 0;
-var max = 0;
+var max = 1;
 var locked = false;
+var time = 3000;
 
 fetch("./alumnos.json")
 .then(promise => promise.json())
@@ -9,12 +10,26 @@ fetch("./alumnos.json")
     alumnos.sort((a,b) => (Math.random()-0.5)).forEach((alumno, id) => {
     if (alumno.nombre) {
         articulo = document.createElement("article");
-        main.innerHTML += article(id, alumno.foto, alumno.lugar, alumno.nombre, alumno.descripcion);
+        main.innerHTML += article(id, alumno.fotos, alumno.lugar, alumno.nombre, alumno.descripcion);
         max++;
     }
 })
 })
+.then(__ => {
+    document.querySelectorAll(".img").forEach(carrousel)
+})
 
+function carrousel(dotImg) {
+    let arrayImg = dotImg.querySelectorAll("img")
+    if (arrayImg.length > 1){
+        let currImg = 0;
+        arrayImg.forEach(imagen => {
+            imagen.style.opacity = "0"
+            imagen.animate([{opacity:"1"}, {opacity:"1", offset:1/arrayImg.length}, {opacity:"0", offset:1/arrayImg.length} , {opacity:"0"}], {duration:time*arrayImg.length, delay:currImg*time, iterations: Infinity})
+            currImg++;
+        })
+}
+}
 
 function after() {
     if (curr !== max && !locked) {
@@ -34,11 +49,13 @@ function before() {
 }
 
 
-function article(id, foto, lugar, nombre, descripcion) {
+function article(id, fotos, lugar, nombre, descripcion) {
     [color, color2] = generateClr()
-return `<article id="${id}">
+    return `<article id="${id}">
     <div class="img" style="--bgn: ${color};--bgn2: ${color2}">
-        <img src="${foto}" alt="imagen de ${lugar}" >
+    `+
+        fotos.reduce((acum, foto) => (acum + `<img src="${foto}" alt="imagen de ${lugar}" >`), "")
+    +`
     </div>
     <div class="text">
         <h2>${lugar}</h2>
