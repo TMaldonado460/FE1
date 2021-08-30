@@ -36,6 +36,12 @@
         "descripcion":"Muchas gracias por todo profe, la verdad que hace que los momentos de aprendizaje sean muy amenos y fructíferos. En estas fotos le presento algunas tomas del lugar de donde vivo, del hermoso Río Limay, sus costas y acantilados, para que nunca deje de viajar aunque esté desde su casa. Le mando un cálido abrazo y le deseo que ¡nunca deje de rodar! <br />PD: Esas fotos las saque yo! Le gustan?"  
     },
     {
+        "fotos": ["https://cdn.discordapp.com/attachments/859410177442054185/881896938834898944/cabalgata.jpg", "https://cdn.discordapp.com/attachments/859410177442054185/881896975212114010/empa.jpg", "https://cdn.discordapp.com/attachments/859410177442054185/881897318763335780/Tafi.jpg"], 
+        "lugar":"Lo mejor de Tucumán!", 
+        "nombre":"Paula Mendilaharzu",
+        "descripcion":""  
+    },
+    {
         "fotos": "", 
         "lugar":"", 
         "nombre":"",

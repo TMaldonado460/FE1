@@ -42,7 +42,8 @@ article {
     background: linear-gradient(90deg, hsl(0, 50%, 50%), hsl(40, 50%, 50%));
 }
 #dahy video {
-    height: 90%;
+    width: 85%;
+
     box-shadow: 2px 2px 10px black;
 }
 div {
