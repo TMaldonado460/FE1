@@ -19,7 +19,7 @@ body {
     background: rgb(218,127,127);
     background: linear-gradient(117deg, rgba(218,127,127,1) 0%, rgba(116,209,245,1) 51%, rgba(150,204,71,1) 100%);
     padding: 100px;
-    
+    padding-top: 190px;
 }
 section#main {
     position: absolute;
@@ -43,7 +43,6 @@ article {
 }
 #dahy video {
     width: 85%;
-
     box-shadow: 2px 2px 10px black;
 }
 div {
@@ -65,8 +64,11 @@ div {
 img {
     border-radius: 4px;
     max-height: 95%;
-    max-width: 90%;
-    box-shadow: 5px 5px 20px black;
+    max-width: 95%;
+    /* padding: 15px;
+    padding-bottom: 120px; */
+    background: #ddd;
+    box-shadow: 10px 10px 20px black;
     position: absolute;
     top: 50%;
     left: 50%;

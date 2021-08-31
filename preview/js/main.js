@@ -65,19 +65,21 @@ function article(id, fotos, lugar, nombre, descripcion) {
 </article>`
 }
 
+
 function generateClr() {
     let hue = Math.floor(Math.random()*360)
-    let hue2 = hue + 40
-    return [`hsl(${hue}, 50%, 50%)`, `hsl(${hue2}, 50%, 50%)`]
+    return [`hsl(${hue}, 50%, 50%)`, `hsl(${hue + 30}, 50%, 50%)`]
 }
+
 
 document.addEventListener('keydown',  logKey);
 function logKey(e) {
     if (e.code === "ArrowDown") after()
     if (e.code === "ArrowUp") before()
 }
-document.addEventListener("wheel", mouseResponsive)
 
+
+document.addEventListener("wheel", mouseResponsive)
 function mouseResponsive(mouseEvent) {
 
     if(mouseEvent.deltaY > 0) {

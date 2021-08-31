@@ -18,7 +18,7 @@
         "descripcion":"Gracias por todo profe! Le deseo los mejores de los éxitos!!"  
     },
     {
-        "fotos": ["https://cdn.discordapp.com/attachments/861357159463911454/881362710523150386/DSC06961.JPG"], 
+        "fotos": ["https://cdn.discordapp.com/attachments/861357159463911454/881362710523150386/DSC06961.JPG", "https://cdn.discordapp.com/attachments/861357159463911454/882390826628567050/MarielaGoncalvesColaco3.JPG", "https://cdn.discordapp.com/attachments/861357159463911454/882390831170981969/MarielaGoncalvesColaco2.JPG"], 
         "lugar":"Faro de Colon, La Pampa", 
         "nombre":"Mariela Golcalves",
         "descripcion":"Profe Jorge gracias por compartir tanto con nosotros! Desde el Faro de Colón  en medio de la zona pampeana le mando un saludo enorme! Mi lugarcito más cercano es ese lago artificial que está en provincia de Buenos Aires pero se siente muy de Santa Fe ♥  o(^▽^)┛"  
@@ -39,10 +39,58 @@
         "fotos": ["https://cdn.discordapp.com/attachments/859410177442054185/881896938834898944/cabalgata.jpg", "https://cdn.discordapp.com/attachments/859410177442054185/881896975212114010/empa.jpg", "https://cdn.discordapp.com/attachments/859410177442054185/881897318763335780/Tafi.jpg"], 
         "lugar":"Lo mejor de Tucumán!", 
         "nombre":"Paula Mendilaharzu",
+        "descripcion":"Gracias profe por su calidez humana y enseñanza. Me llevo buenos recuerdos de la materia y mucho interés por aprender de seguridad informática. Lo esperamos en Tucumán con empanadas y circuitos listos para aventurarse."  
+    },
+    {
+        "fotos": ["https://cdn.discordapp.com/attachments/862510729026338846/882098438639067176/cuesta-lipan_jujuy-D-Espejo-copia.jpg", "https://cdn.discordapp.com/attachments/862510729026338846/882098450198577192/Devils-Throat-Garganta-del-Diablo-area-on-Quebrada-de-las-Conchas-near-Cafayate-city-in-Salta-Provin.jpg", "https://cdn.discordapp.com/attachments/862510729026338846/882098450857082910/laguna_de_pozuelos.jpg", "https://cdn.discordapp.com/attachments/862510729026338846/882098451356221500/lagunas_de_yala.jpg", "https://cdn.discordapp.com/attachments/862510729026338846/882098454707462144/Salinas-Grandes.jpg", "https://cdn.discordapp.com/attachments/862510729026338846/882098457672831016/serranias_del_hornocal.jpg", "https://cdn.discordapp.com/attachments/862510729026338846/882098461133127740/termas_del_jordan.jpeg", "https://cdn.discordapp.com/attachments/862510729026338846/882100981335203850/cerro_de_los_7_colores.jpg"], 
+        "lugar":"Jujuy", 
+        "nombre":"Cristian Maidana",
+        "descripcion":"Gracias por compartir su conocimiento con nosotros y por la buena onda se lo va a extrañar!! Lo espero por Jujuy cuando usted quiera ♥"  
+    },
+    {
+        "fotos": ["https://cdn.discordapp.com/attachments/882374947006185515/882375084243832872/147241052_4977663122306325_5713235874249814743_n.jpg", "https://cdn.discordapp.com/attachments/882374947006185515/882375089851604992/5495296489_cbf65a912f_b.jpg", "https://cdn.discordapp.com/attachments/882374947006185515/882375090166198333/Motoencuentro.jpg", "https://cdn.discordapp.com/attachments/882374947006185515/882375092439482428/pn_pre_delta_05Archivo_Administracin_de_Parques_Nacionales.jpg"], 
+        "lugar":"Diamante, Entre Ríos", 
+        "nombre":"Augusto Escandón",
+        "descripcion":"Jorge, muchas gracias por estas semanas en las cuales se ha aprendido mucho y sobre todo se han compartido gratos momentos. Lo espero cuando quiera en la ciudad del Motoencuentro Internacional! Un abrazo muy grande, lo mejor para lo que viene!"  
+    },
+    {
+        "fotos": ["./img/rocio.jpeg"], 
+        "lugar":"Cordoba", 
+        "nombre":"Rocio Piazze",
+        "descripcion":"Le mando Saludos y un dibujo de mi ciudad , desde Córdoba Capital !"  
+    },
+    {
+        "fotos": ["./img/valeria1.jpeg", "./img/valeria2.jpeg", "./img/valeria3.jpeg"], 
+        "lugar":"Santa Fe, Capital", 
+        "nombre":"Valeria Schreiber",
+        "descripcion":"Gracias por el aguante! :)"  
+    },
+    {
+        "fotos": ["https://www.nationalgeographic.com.es/medio/2014/09/16/ogrunewald_cano_cristales_24_1800x1201.jpg"], 
+        "lugar":"Rio de los cinco colores, Meta, Colombia", 
+        "nombre":"Jenny Vargas",
+        "descripcion":"Caño Cristales <a href=\"https://www.nationalgeographic.com.es/naturaleza/grandes-reportajes/el-rio-que-escapo-del-paraiso-2_8507/7\">“Río de los cinco colores”</a> (Amarillo, Azul, Verde, Rojo y Negro), sus aguas transparentes dejan ver plantas acuáticas, la arena y las hermosas formaciones rocosas en su lecho, algo verdaderamente sorprendente.<br />Catalogado como uno de los ríos más hermosos del mundo que el cual se encuentra muy cerca del municipio de La Macarena, en el departamento del Meta, Colombia."  
+    },
+    {
+        "fotos": ["https://cdn.discordapp.com/attachments/861357159463911454/882390653684813834/LauraFernandezRio1.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882390658176938005/LauraFernandezRio2.jpg"], 
+        "lugar":"Barrio Flores, Buenos Aires", 
+        "nombre":"Laura Fernandez",
+        "descripcion":"git commit -m \"Muchas gracias por todo lo que nos enseñó profe!\""  
+    },
+    {
+        "fotos": ["https://cdn.discordapp.com/attachments/861357159463911454/882390622953168956/AgustinRivarola1.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882390631173984346/AgustinRivarola2.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882390638086221834/AgustinRivarola3.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882390644033749022/AgustinRivarola4.jpg"], 
+        "lugar":"", 
+        "nombre":"Agustin Rivarola",
         "descripcion":""  
     },
     {
-        "fotos": "", 
+        "fotos": ["./img/alanis.jpeg"], 
+        "lugar":"CABA", 
+        "nombre":"Alanis Daniela",
+        "descripcion":""  
+    },
+    {
+        "fotos": [""], 
         "lugar":"", 
         "nombre":"",
         "descripcion":""  
