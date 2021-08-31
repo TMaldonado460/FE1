@@ -102,6 +102,24 @@
         "descripcion":"Muchas gracias profe por todo su apoyo, los meet fuera de clase es algo que siempre me voy a acordar"  
     },
     {
+        "fotos": ["https://www.elforodelpescador.com.ar/images/recursosnaturales/ibera/foto_carpinchos-624x363.jpg"], 
+        "lugar":"Esteros del Iberá", 
+        "nombre":"Magali Franco",
+        "descripcion":""  
+    },
+    {
+        "fotos": [""], 
+        "lugar":"", 
+        "nombre":"",
+        "descripcion":""  
+    },
+    {
+        "fotos": [""], 
+        "lugar":"", 
+        "nombre":"",
+        "descripcion":""  
+    },
+    {
         "fotos": [""], 
         "lugar":"", 
         "nombre":"",
