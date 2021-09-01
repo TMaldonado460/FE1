@@ -13,13 +13,47 @@ body {
 .saludo {
     position: relative;
     height: 100vh;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     background: rgb(218,127,127);
     background: linear-gradient(117deg, rgba(218,127,127,1) 0%, rgba(116,209,245,1) 51%, rgba(150,204,71,1) 100%);
-    padding: 100px;
-    padding-top: 190px;
+    background: rgb(44, 44, 44);
+    /* background: url(https://www.kali.org/images/notebook-kali-2021.2.jpg); */
+    background-size: contain;
+    font-family: "Courier New", Courier, monospace;
+    color: #ddd;
+}
+.saludo .top {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    top: -1px;
+    transform: translate(-50%, 0);
+    box-shadow: none;
+
+}
+.saludo .col {
+    color: darkblue;
+}
+.saludo .user {
+    color: yellowgreen;
+    padding-left: 30px;
+}
+.saludo div.mensaje {
+    position: relative;
+    padding: 0 40px;
+    width: 60%;
+    box-shadow: none;
+}
+.saludo img.profe {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 20px;
+    bottom: 60px;
+    transform: translate(0, 0);
+    padding: 5px 5px 40px 5px;
 }
 section#main {
     position: absolute;

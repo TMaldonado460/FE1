@@ -104,7 +104,7 @@
     {
         "fotos": ["https://www.elforodelpescador.com.ar/images/recursosnaturales/ibera/foto_carpinchos-624x363.jpg"], 
         "lugar":"Esteros del Iberá", 
-        "nombre":"Magali Franco",
+        "nombre":"Magali Paiva",
         "descripcion":""  
     },
     {
@@ -124,6 +124,18 @@
         "lugar":"Capital Federal, Buenos Aires", 
         "nombre":"Nadia Montesi",
         "descripcion":"Profe por toda la buena onda y predisposición que puso! Se nota que ama lo que hace y eso genera muchas ganas de aprender! Acá en Capi lo esperamos!!!"  
+    },
+    {
+        "fotos": ["https://cdn.discordapp.com/attachments/861357159463911454/882416406338080808/MagaliPrietoJujuy1.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882416401527234590/MagaliPrietoJujuy3.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882416399748853820/MagaliPrietoJujuy2.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882416380689907813/MagaliPrietoJujuy5.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882416369348538469/MagaliPrietoJujuy7.jpg", "https://cdn.discordapp.com/attachments/861357159463911454/882417321136783390/MagaliPrietoJujuy4.jpg"], 
+        "lugar":"Jujuy", 
+        "nombre":"Magali Prieto",
+        "descripcion":"Gracias por tanto esfuerzo, dedicación y paciencia. Realmente fue un gusto cursar su materia! Lo esperamos siempre en este punto del país. Hasta pronto profe!!!"  
+    },
+    {
+        "fotos": [""], 
+        "lugar":"", 
+        "nombre":"",
+        "descripcion":""  
     },
     {
         "fotos": [""], 
