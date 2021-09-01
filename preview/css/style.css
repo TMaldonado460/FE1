@@ -24,6 +24,12 @@ body {
     font-family: "Courier New", Courier, monospace;
     color: #ddd;
 }
+.saludo > *:not(img) {
+    animation: intro 1000ms ease-out;
+}
+@keyframes intro {
+    from {opacity: 0;}
+}
 .saludo .top {
     width: 100%;
     max-width: 100%;
@@ -54,6 +60,17 @@ body {
     bottom: 60px;
     transform: translate(0, 0);
     padding: 5px 5px 40px 5px;
+}
+.saludo .curr-line::after {
+    content: "a";
+    background: white;
+    color: white;
+    width: 10px;
+    margin-left: 1px;
+    animation: cycle 0.8s infinite;
+}
+@keyframes cycle {
+    80%, 100% {opacity: 0;}
 }
 section#main {
     position: absolute;
