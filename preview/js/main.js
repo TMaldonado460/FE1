@@ -7,8 +7,12 @@ var time = 3000;
 fetch("./alumnos.json")
 .then(promise => promise.json())
 .then(alumnos => {
-    alumnos.sort((a,b) => (Math.random()-0.5)).forEach((alumno, id) => {
-    if (alumno.nombre) {
+    alumnos.sort((a,b) => {
+        if (a.lugar === "SALUDOS DESDE CAMADA 2") {return 1}
+        if (b.lugar === "SALUDOS DESDE CAMADA 2") {return -1}
+        return (Math.random()-0.5)
+    }).forEach((alumno, id) => {
+    if (alumno) {
         articulo = document.createElement("article");
         main.innerHTML += article(id, alumno.fotos, alumno.lugar, alumno.nombre, alumno.descripcion);
         max++;

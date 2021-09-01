@@ -132,15 +132,9 @@
         "descripcion":"Gracias por tanto esfuerzo, dedicación y paciencia. Realmente fue un gusto cursar su materia! Lo esperamos siempre en este punto del país. Hasta pronto profe!!!"  
     },
     {
-        "fotos": [""], 
-        "lugar":"", 
+        "fotos": ["https://cdn.discordapp.com/attachments/861357159463911454/882428068080283708/Y_el_viaje_sigue_....jpg"], 
+        "lugar":"SALUDOS DESDE CAMADA 2", 
         "nombre":"",
-        "descripcion":""  
-    },
-    {
-        "fotos": [""], 
-        "lugar":"", 
-        "nombre":"",
-        "descripcion":""  
+        "descripcion":"Exitos en su futuro! Y brindis por hackearnos entre todos!"  
     }
 ]
