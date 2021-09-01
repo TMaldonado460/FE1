@@ -24,9 +24,6 @@ body {
     font-family: "Courier New", Courier, monospace;
     color: #ddd;
 }
-.saludo > *:not(img) {
-    animation: intro 1000ms ease-out;
-}
 @keyframes intro {
     from {opacity: 0;}
 }
@@ -202,5 +199,14 @@ input:hover {
     }
     input {
         right: 50%;
+    }
+    .saludo img.profe {
+        display: none;
+    }
+    .saludo div.mensaje {
+        position: relative;
+        padding: 0 40px;
+        width: 100%;
+        box-shadow: none;
     }
 }
